@@ -3,6 +3,7 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   color: #444;
+  line-height: 1.2;
 }
 
 #app {
@@ -12,6 +13,7 @@ body {
 
 .section {
   padding: 0 8%;
+  text-align: center;
 }
 
 .section__title:before {
@@ -24,3 +26,17 @@ body {
 .section textarea {
   width: 100%;
 }
+
+.header-image {
+  text-align: center;
+  margin: 32px 0;
+}
+
+.header-image img:not(:last-child) {
+  margin-right: 16px;
+}
+
+.header-image img {
+  height: 240px;
+}
+

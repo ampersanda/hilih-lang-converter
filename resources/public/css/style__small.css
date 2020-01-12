@@ -1,0 +1,17 @@
+.section__title {
+  font-size: 24px;
+  text-align: left;
+}
+
+.section__title:before {
+  display: none;
+}
+
+.header-image img:not(:last-child) {
+  margin-right: 0;
+}
+
+.header-image img {
+  height: auto;
+  width: 100%;
+}
