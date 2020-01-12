@@ -9,7 +9,7 @@
 (defonce app-state (atom {:text ""}))
 
 (defn convert-to-hilih [text]
-  (str/replace text #"[aiueo]" "i"))
+  (str/replace text #"[aueo]" "i"))
 
 ;; layouts
 (defn hello-world []
