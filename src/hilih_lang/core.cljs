@@ -14,7 +14,7 @@
 ;; layouts
 (defn hello-world []
   [:div
-   [:h2 "Cinvirt wirds ti hilih lingiigi"]
+   [:h2 (convert-to-hilih "Convert words to Hilih Language")]
    [:textarea
     {:rows 10
       :placeholder "Please input words to be converted to hilih lang..."
